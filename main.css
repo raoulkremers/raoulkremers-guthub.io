@@ -1,0 +1,75 @@
+body {
+	font-family: arial;
+	background: #9CB071;
+
+ }
+
+
+
+#content {
+	width: 650px;
+	padding: 15px;
+	background: #FFF8DC;
+	margin-left: 20px;
+	margin-right: auto;
+
+}
+
+#container {
+	background: white;
+	Width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#header {
+	background: url(http://i.imgur.com/NyyzVFS.jpg?1);
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 80px;
+
+
+}
+
+#main {
+	width: 650px;
+	padding: 15px;
+	background: #FFF8DC;
+	margin-left: 20px;
+	margin-right: auto;
+
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
